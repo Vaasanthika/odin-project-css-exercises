@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+.but-class-background-color {
+  background-color: yellow;
+}
+.but-class-text-color {
+  background-color: black;
+  color: white;
+}
+.but-class-font {
+  font-family: "Preferred Font", Helvetica, Times New Roman, sans-serif;
+  font-size: 28px;
+}
+

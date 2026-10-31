@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container .text#descendent {
+    background-color: green;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container #descendent-3 {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}

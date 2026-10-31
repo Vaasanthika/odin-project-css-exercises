@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+p.my-class-odd {
+  background-color: pink;
+  font-family: "Preferred Font", Verdana, DejaVu Sans, sans-serif;
+}
+div#my-id-1 {           
+	color: blue;
+    font-size: 36px;
+}
+p.my-class-odd, p.class-3 {
+  background-color: lightpink;
+  font-family: "Preferred Font", DejaVu Sans, sans-serif;
+  font-size: 24px;
+}
+div#my-id-2 {
+	background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}  
