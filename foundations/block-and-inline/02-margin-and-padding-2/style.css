@@ -1,12 +1,38 @@
 body {
   background: gray;
   font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px;
 }
 
 .card {
   width: 400px;
   background: white;
+  box-sizing: border-box;
   margin: 16px auto;
+  padding: 18px;
+}
+
+div.content {
+  font-size: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 16px auto;
+  font-weight: bold;
+  padding: 12px;
+}
+
+div.button-container {
+  width: 100%;
+  text-align: center;
+  margin: 4px auto;
 }
 
 .title,
@@ -15,6 +41,21 @@ body {
   background: dodgerblue;
 }
 
+p.button-para {
+  box-sizing: border-box;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0px;
+}
 button {
   background: white;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 0px auto;
+}
+span {
+  display: block;
+  box-sizing: border-box;
+  padding-bottom: 12px;
 }
